@@ -1,0 +1,17 @@
+.j{
+     text-align: center;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     border: none;
+     
+     height: 100vh;
+      border: 4px solid blue;
+      background-color: rgb(78, 214, 173);
+}
+*{
+    background-color: aquamarine;
+   
+    padding: 20px;
+}

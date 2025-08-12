@@ -224,3 +224,17 @@ let res = arr.filter((num) => {
 }
 )
  console.log(res); 
+
+
+// Push Method
+ let fruits = ["Apple", "Banana"];
+fruits.push("Mango"); 
+fruits.pop(); 
+fruits.shift();
+fruits.unshift("Orange");
+fruits.splice(1, 0, "Guava"); 
+fruits.forEach((fruit) => console.log(fruit));
+console.log(fruits);
+
+// map method
+let squares = [1,2,3].map(num => num * num); // [1, 4, 9]
